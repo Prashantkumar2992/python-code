@@ -1,0 +1,7 @@
+
+FROM openjdk:latest
+
+WORKDIR /app
+copy . /app
+#RUN javac Prime.java
+cmd ["java","Prime"]

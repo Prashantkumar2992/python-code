@@ -1,0 +1,5 @@
+fi1 = open('first.txt','w+')
+fi1.write(input("i m captain america"))
+fi1.seek(0)
+print(fi1.read())
+fi1.close()
